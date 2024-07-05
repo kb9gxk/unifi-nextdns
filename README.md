@@ -7,13 +7,13 @@ This is my method to get NextDNS re-installed on my Unifi-OS based consoles such
 Already have NextDNS installed and configured accordingly.
 
 ```  
-sh -c 'sh -c "$(curl -sL [https://nextdns.io/install)](https://nextdns.io/install%29)"'  
+sh -c 'sh -c "$(curl -sL https://nextdns.io/install)"'  
 ```
 
 ## Installation directions
 
 ```  
-curl <https://github.com/kb9gxk/unifi-nextdns/raw/main/nextdns-inst> -o /root/nextdns-inst  
+curl https://github.com/kb9gxk/unifi-nextdns/raw/main/nextdns-inst -o /root/nextdns-inst  
 chmod +x /root/nextdns-inst  
 cp /data/nextdns.conf /root  
 ```
