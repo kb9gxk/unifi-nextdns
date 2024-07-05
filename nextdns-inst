@@ -1,0 +1,4 @@
+#/bin/sh
+sh -c 'sh -c "$(curl -sL https://nextdns.io/install)"'
+cp nextdns.conf /data
+nextdns restart
